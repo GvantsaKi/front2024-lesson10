@@ -1,5 +1,14 @@
+@font-face {
+  font-family: "HELVETICA";
+  src: url(../font/HELVETICA-NEUE-LT-GEO-75-BOLD.ttf) format(truetype);
+}
+@font-face {
+  font-family: "HELVETICA-2";
+  src: url(../font/HELVETICANEUELTGEO-45LIGHTS.ttf) format(truetype);
+}
+
 * {
-	margin: 0;
+/*	margin: 0;*/
 	padding: 0;
 	box-sizing: border-box;
 }
@@ -27,6 +36,7 @@ h1{
 	color: #FFFFFF;
 	font-size: 32px;
 	letter-spacing: 0px;
+	font-family: "HELVETICA";
 }
 p{
 	font-size: 16px;
@@ -35,13 +45,100 @@ p{
 	max-width: 463px;
 	width: 100%;
 	margin-top: 30px;
+	margin-bottom: 58px;
 	display: inline-block;
+	font-family: "HELVETICA-2";
+}
+.display-flex ul{
+	font-family: "HELVETICA";
+	font-size: 22px;
+}
+.info-pic{
+	width: 70px;
+	max-width: 100%;
+	margin-top: 70px;
+}
+.img-div{
+	display: flex;
+	justify-content: space-between;
+    align-items: flex-end;
+}
+a{
+	color:white;
+}
+.img-div ul{
+	padding: 20px;
+	margin: 0px;
+}
+.logo{
+	max-width: 100%;
+	width: 121px;
+	margin-left: 30px;
+}
+label {
+	font-size: 16px;
+	color: #FFFFFF;
+	font-family: "HELVETICA";
+}
+.form-row input {
+    border: none;
+	font-size: 16px;
+	padding: 30px;
+	background-color: transparent;
+}
+.form-row{
+	border: none;
+	border-bottom: 1px solid #FFFFFF;
+	display: flex;
+	flex-direction: column;
+    align-items: flex-start;
+
+}
+input {
+	outline: none;
+}
+textarea{
+	background-color: transparent;
+	padding: 10px;
+	outline: none;
+	border: none;
+    border-bottom: 1px solid #FFFFFF;
+	resize: none;
+	width: 463px;
+	max-width: 100%;
+	opacity: 30%;
 }
 
+button {
+	padding: 10px 20px;
+	border: none;
+	border-radius: 20px;
+	background-color: #FFFFFF;
+	color: black;
+	font-size: 16px;
+	cursor: pointer;
+	margin-top: 40px;
+	font-family: "HELVETICA";
+}
+.button-flex{
+	display: flex;
+	justify-content: flex-end;
+}
+footer{
+	padding-top: 40px;
+	margin-top: 100px;
+	border-top: 1px solid #FFFFFF;
+	
+}
+footer p{
+	font-size: 16px;
+	font-family: "HELVETICA";
+}
 .flex-display{
 	display: flex;
 	flex-direction: column;
     align-items: flex-end;
+    padding-top: 100px;
 
 }
 
